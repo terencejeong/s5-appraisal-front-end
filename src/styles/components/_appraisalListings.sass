@@ -1,0 +1,38 @@
+.appraisal--container
+  color: white
+  .slider
+    width: 50%
+    margin: 0 auto
+    text-align: center
+
+  .appContainer
+    margin: auto
+    width: 1000px
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr
+    grid-template-rows: 110px 110px 110px
+    padding: 80px 2px 2px 2px
+
+  .sound-card
+    width: 200px
+    color: #fff
+    border: 1px blue
+
+  .image-container
+    max-width: 40px
+    float: left
+    padding-left: 10px
+
+  .count
+    height: 40px
+    padding-left: 60px
+    line-height: 45px
+
+  @media only screen and (max-width: 899px)
+    .appContainer
+      margin: auto
+      width: 600px
+      display: grid
+      grid-template-columns: 1fr 1fr 1fr
+      grid-template-rows: 110px 110px 110px
+      padding: 2px

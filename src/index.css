@@ -1,0 +1,67 @@
+.appraisal--container {
+  color: white; }
+  .appraisal--container .slider {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; }
+  .appraisal--container .appContainer {
+    margin: auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 110px 110px 110px;
+    padding: 80px 2px 2px 2px; }
+  .appraisal--container .sound-card {
+    width: 200px;
+    color: #fff;
+    border: 1px blue; }
+  .appraisal--container .image-container {
+    max-width: 40px;
+    float: left;
+    padding-left: 10px; }
+  .appraisal--container .count {
+    height: 40px;
+    padding-left: 60px;
+    line-height: 45px; }
+  @media only screen and (max-width: 899px) {
+    .appraisal--container .appContainer {
+      margin: auto;
+      width: 600px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 110px 110px 110px;
+      padding: 2px; } }
+
+.form__appraisal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .form__appraisal__form {
+    text-align: center; }
+
+.form .button {
+  width: 50%;
+  align-self: center; }
+
+#test h1 {
+  margin-top: 25px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  -webkit-animation: fadein 3s;
+    -webkit-animation--moz-animation: fadein 3s;
+      -webkit-animation--moz-animation--ms-animation: fadein 3s;
+        -webkit-animation--moz-animation--ms-animation--o-animation: fadein 3s;
+          -webkit-animation--moz-animation--ms-animation--o-animation-animation: fadein 3s; }
+
+@keyframes fadein {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #c6677a, #d05484, #d43f96, #cf2baf, #bd24ce); }
